@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Production_RR">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=ORANGE;Initial Catalog=Reports</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>c47279a5-a155-4142-a104-d7b46f1e0e7d</DataSourceID>
+</RptDataSource>
