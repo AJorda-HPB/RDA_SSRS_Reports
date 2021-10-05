@@ -22,7 +22,7 @@
   <DataSets>
     <DataSet Name="PARAMS_DynFilter_Locations">
       <Query>
-        <DataSourceName>Development_RR</DataSourceName>
+        <DataSourceName>SAGE_RR</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@FilterType">
             <Value>=Parameters!LocationType.Value</Value>
@@ -231,7 +231,7 @@
     </DataSet>
     <DataSet Name="PARAMS_Month_Year">
       <Query>
-        <DataSourceName>Development_RR</DataSourceName>
+        <DataSourceName>SAGE_RR</DataSourceName>
         <CommandType>StoredProcedure</CommandType>
         <CommandText>PARAMS_Month_Year</CommandText>
       </Query>
@@ -703,6 +703,10 @@
                       <CellContents>
                         <Textbox Name="Textbox8">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!BusinessMonth.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -737,6 +741,10 @@
                       <CellContents>
                         <Textbox Name="Textbox10">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!LocationNo.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -771,6 +779,10 @@
                       <CellContents>
                         <Textbox Name="Textbox12">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -805,6 +817,10 @@
                       <CellContents>
                         <Textbox Name="Textbox18">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -839,6 +855,10 @@
                       <CellContents>
                         <Textbox Name="Textbox14">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!ScanSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -873,6 +893,10 @@
                       <CellContents>
                         <Textbox Name="Textbox36">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -907,6 +931,10 @@
                       <CellContents>
                         <Textbox Name="Textbox34">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -941,6 +969,10 @@
                       <CellContents>
                         <Textbox Name="Textbox32">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!ScanSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -975,6 +1007,10 @@
                       <CellContents>
                         <Textbox Name="Textbox30">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!ScanSoldQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1009,6 +1045,10 @@
                       <CellContents>
                         <Textbox Name="Textbox46">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistOnlineSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1043,6 +1083,10 @@
                       <CellContents>
                         <Textbox Name="Textbox44">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnOnlineSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1077,6 +1121,10 @@
                       <CellContents>
                         <Textbox Name="Textbox42">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistOnlineSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1111,6 +1159,10 @@
                       <CellContents>
                         <Textbox Name="Textbox40">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnOnlineSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1145,6 +1197,10 @@
                       <CellContents>
                         <Textbox Name="Textbox38">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistBookwormSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1179,6 +1235,10 @@
                       <CellContents>
                         <Textbox Name="Textbox16">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnBookwormSoldCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1213,6 +1273,10 @@
                       <CellContents>
                         <Textbox Name="Textbox1">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistBookwormSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1247,6 +1311,10 @@
                       <CellContents>
                         <Textbox Name="Textbox3">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnBookwormSoldAmt.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1281,6 +1349,10 @@
                       <CellContents>
                         <Textbox Name="Textbox25">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalTransfersInCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1315,6 +1387,10 @@
                       <CellContents>
                         <Textbox Name="Textbox23">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalTransfersOutCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1349,6 +1425,10 @@
                       <CellContents>
                         <Textbox Name="Textbox72">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalTransfersInCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1383,6 +1463,10 @@
                       <CellContents>
                         <Textbox Name="Textbox70">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalTransfersOutCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1417,6 +1501,10 @@
                       <CellContents>
                         <Textbox Name="Textbox21">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalTransfersInQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1451,6 +1539,10 @@
                       <CellContents>
                         <Textbox Name="Textbox19">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalTransfersOutQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1485,6 +1577,10 @@
                       <CellContents>
                         <Textbox Name="Textbox68">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalTransfersInQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1519,6 +1615,10 @@
                       <CellContents>
                         <Textbox Name="Textbox66">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalTransfersOutQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1553,6 +1653,10 @@
                       <CellContents>
                         <Textbox Name="Textbox15">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalRfiCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1587,6 +1691,10 @@
                       <CellContents>
                         <Textbox Name="Textbox11">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalRfiCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1621,6 +1729,10 @@
                       <CellContents>
                         <Textbox Name="Textbox64">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTotalRfiQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1655,6 +1767,10 @@
                       <CellContents>
                         <Textbox Name="Textbox62">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTotalRfiQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1689,6 +1805,10 @@
                       <CellContents>
                         <Textbox Name="Textbox5">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTrashCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1723,6 +1843,10 @@
                       <CellContents>
                         <Textbox Name="Textbox7">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistDamageCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1757,6 +1881,10 @@
                       <CellContents>
                         <Textbox Name="Textbox60">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistDonateCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1791,6 +1919,10 @@
                       <CellContents>
                         <Textbox Name="Textbox58">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTrashCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1825,6 +1957,10 @@
                       <CellContents>
                         <Textbox Name="Textbox92">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnDamageCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1859,6 +1995,10 @@
                       <CellContents>
                         <Textbox Name="Textbox90">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnDonateCost.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1893,6 +2033,10 @@
                       <CellContents>
                         <Textbox Name="Textbox88">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistTrashQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1927,6 +2071,10 @@
                       <CellContents>
                         <Textbox Name="Textbox86">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistDamageQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1961,6 +2109,10 @@
                       <CellContents>
                         <Textbox Name="Textbox84">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!DistDonateQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -1995,6 +2147,10 @@
                       <CellContents>
                         <Textbox Name="Textbox82">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnTrashQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -2029,6 +2185,10 @@
                       <CellContents>
                         <Textbox Name="Textbox80">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnDamageQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -2063,6 +2223,10 @@
                       <CellContents>
                         <Textbox Name="Textbox78">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!FrlnDonateQty.Value</SortExpression>
+                            <SortExpressionScope>MonthLocation</SortExpressionScope>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -3508,14 +3672,6 @@
                       <GroupExpression>=Fields!LocationNo.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
-                  <SortExpressions>
-                    <SortExpression>
-                      <Value>=Fields!BusinessMonth.Value</Value>
-                    </SortExpression>
-                    <SortExpression>
-                      <Value>=Fields!LocationNo.Value</Value>
-                    </SortExpression>
-                  </SortExpressions>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
