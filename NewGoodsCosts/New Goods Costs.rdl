@@ -2343,7 +2343,7 @@
                                   <Value>=Fields!DistSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2377,7 +2377,7 @@
                                   <Value>=Fields!FrlnSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2410,7 +2410,7 @@
                                   <Value>=Fields!ScanSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2443,7 +2443,7 @@
                                   <Value>=Fields!DistSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2476,7 +2476,7 @@
                                   <Value>=Fields!FrlnSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2509,7 +2509,7 @@
                                   <Value>=Fields!ScanSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2574,7 +2574,7 @@
                                   <Value>=Fields!DistOnlineSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2607,7 +2607,7 @@
                                   <Value>=Fields!FrlnOnlineSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2640,7 +2640,7 @@
                                   <Value>=Fields!DistOnlineSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2673,7 +2673,7 @@
                                   <Value>=Fields!FrlnOnlineSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2706,7 +2706,7 @@
                                   <Value>=Fields!DistBookwormSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2739,7 +2739,7 @@
                                   <Value>=Fields!FrlnBookwormSoldCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2772,7 +2772,7 @@
                                   <Value>=Fields!DistBookwormSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2805,7 +2805,7 @@
                                   <Value>=Fields!FrlnBookwormSoldAmt.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2838,7 +2838,7 @@
                                   <Value>=Fields!DistTotalTransfersInCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2871,7 +2871,7 @@
                                   <Value>=Fields!DistTotalTransfersOutCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2904,7 +2904,7 @@
                                   <Value>=Fields!FrlnTotalTransfersInCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2937,7 +2937,7 @@
                                   <Value>=Fields!FrlnTotalTransfersOutCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3098,7 +3098,7 @@
                                   <Value>=Fields!DistTotalRfiCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3131,7 +3131,7 @@
                                   <Value>=Fields!FrlnTotalRfiCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3228,7 +3228,7 @@
                                   <Value>=Fields!DistTrashCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3261,7 +3261,7 @@
                                   <Value>=Fields!DistDamageCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3294,7 +3294,7 @@
                                   <Value>=Fields!DistDonateCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3327,7 +3327,7 @@
                                   <Value>=Fields!FrlnTrashCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3360,7 +3360,7 @@
                                   <Value>=Fields!FrlnDamageCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3393,7 +3393,7 @@
                                   <Value>=Fields!FrlnDonateCost.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>''#,0.00;(''#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
