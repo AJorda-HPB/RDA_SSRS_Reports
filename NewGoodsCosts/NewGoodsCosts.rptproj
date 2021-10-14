@@ -54,6 +54,7 @@
     <DataSource Include="SAGE_RR.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="New Goods Costs - Copy.rdl" />
     <Report Include="New Goods Costs.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
